@@ -4,3 +4,10 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
+  var typed = new Typed((".rakibul"),{
+    strings : ["RAKIBUL ISLAM"],
+    typeSpeed : 100,
+    backSpeed : 100,
+    backDelay : 1000,
+    loop : true
+})
